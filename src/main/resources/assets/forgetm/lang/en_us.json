@@ -1,0 +1,19 @@
+{
+  "item.forgetm.ruby": "Ruby",
+  "itemGroup.forgetmtab": "Forge Tutorial Tab",
+  "block.forgetm.ruby_block": "Block of Ruby",
+  "item.forgetm.ruby_sword": "Ruby Sword",
+  "item.forgetm.ruby_pickaxe": "Ruby Pickaxe",
+  "item.forgetm.ruby_axe": "Ruby Axe",
+  "item.forgetm.ruby_shovel": "Ruby Shovel",
+  "item.forgetm.ruby_hoe": "Ruby Hoe",
+  "item.forgetm.ruby_helmet": "Ruby Helmet",
+  "item.forgetm.ruby_chestplate": "Ruby Chestplate",
+  "item.forgetm.ruby_leggings": "Ruby Leggings",
+  "item.forgetm.ruby_boots": "Ruby Boots",
+  "item.forgetm.poison_apple": "Poison Apple",
+  "block.forgetm.ruby_ore": "Ruby Ore",
+  "block.forgetm.oven": "Oven",
+  "entity.forgetm.hog": "Hog",
+  "item.forgetm.hog_spawn_egg": "Hog Spawn Egg"
+}
