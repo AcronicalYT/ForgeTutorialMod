@@ -14,7 +14,7 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements IArmorMaterial {
 
-    RUBY(ForgeTutorial.MOD_ID + ":ruby", 25, new int[] { 3, 5, 7, 2 }, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0, () -> { return Ingredient.fromItems(ModItems.RUBY.get()); },0);
+    RUBY(ForgeTutorial.MOD_ID + ":ruby", 25, new int[] { 3, 5, 7, 2 }, 18, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0, () -> { return Ingredient.fromItems(ModItems.RUBY.get()); },1);
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] { 11, 16, 15, 13 };
     private final String name;

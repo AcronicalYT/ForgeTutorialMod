@@ -1,7 +1,6 @@
 package com.acronical.forgetutorial.init;
 
 import com.acronical.forgetutorial.ForgeTutorial;
-import com.acronical.forgetutorial.items.ItemBase;
 import com.acronical.forgetutorial.items.ModSpawnEggItem;
 import com.acronical.forgetutorial.items.PoisonApple;
 import com.acronical.forgetutorial.util.enums.ModArmorMaterial;
@@ -9,7 +8,6 @@ import com.acronical.forgetutorial.util.enums.ModItemTier;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -18,7 +16,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ForgeTutorial.MOD_ID);
 
     // Items
-    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
+    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", () -> new Item(new Item.Properties().group(ForgeTutorial.TAB)));
     public static final RegistryObject<PoisonApple> POISON_APPLE = ITEMS.register("poison_apple", PoisonApple::new);
 
     // Spawn Eggs

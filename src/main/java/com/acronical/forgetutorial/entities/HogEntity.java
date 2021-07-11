@@ -28,7 +28,6 @@ public class HogEntity extends AnimalEntity {
         super(type, worldIn);
     }
 
-    // func_233666_p_() ==> registerAttributes()
     public static AttributeModifierMap.MutableAttribute setCustomAttributes(){
         return MobEntity.func_233666_p_().createMutableAttribute(Attributes.MAX_HEALTH, 12.0d).createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.25d);
     }
